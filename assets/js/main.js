@@ -1,7 +1,8 @@
+
 jQuery(document).ready(function ($) {
 
     // efeitos na carregamento
-    ScrollReveal().reveal(".bg-header .container", {
+    ScrollReveal().reveal(".bg-header #content", {
         origin: "bottom",
         distance: "10px",
         duration: 800,
@@ -27,6 +28,11 @@ jQuery(document).ready(function ($) {
 
 });
 
+
+$('.menu-bars').on('click touchstart', function(e){
+    console.log('oi');
+    $(".navbar-collapse").addClass("teste");
+});
 
 $("a[href='#header']").click(function () {
     $("html, body").animate({
