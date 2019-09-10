@@ -23,7 +23,7 @@ jQuery(document).ready(function ($) {
         distance: "20px",
         duration: 500,
         interval: 100,
-        delay: 200
+        delay: 100
     });
 
 });

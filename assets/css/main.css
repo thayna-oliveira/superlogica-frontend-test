@@ -21,7 +21,8 @@ body {
     padding-top: 11.25rem; }
     @media screen and (max-width: 960px) {
       .bg-header h1 {
-        padding-top: 5rem; } }
+        padding-top: 5rem;
+        font-size: 2.8rem; } }
   .bg-header p {
     font-size: 1.25rem;
     padding-top: 1.563rem; }
@@ -81,6 +82,18 @@ body {
       .form-subscribe .inner .btn-send:hover {
         transform: scale(1.02);
         box-shadow: 0px 2px 20px 0px rgba(18, 104, 251, 0.35); }
+
+.nav-fix {
+  top: 10px;
+  z-index: 999;
+  position: fixed;
+  width: 100%; }
+  .nav-fix .container {
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0 1rem;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.25), 0 0 7px -1px rgba(0, 0, 0, 0.15); }
 
 .navbar {
   top: 2rem;
