@@ -174,12 +174,12 @@ body {
     z-index: 1;
     top: 0;
     background: #fff;
-    overflow-x: hidden;
-    transition: .5s;
+    overflow-x: hidden; 
     z-index: 99999;
     display: block;
     flex-wrap: wrap;
     align-items: stretch;
+    transition: all .3s;
 
     .nav-item {
         padding: 1rem;
@@ -203,18 +203,19 @@ body {
 
     }
 
-  }
+    .exit-nav {
+        transition: all .3s;
+        padding: 0;
+        position: fixed;  
+        display: flex;
+        left: 20%;  
+        font-size: 40px;
+        margin-right: 50px;
+        z-index: 999;
+        color: #fff;
+        height: 100%;
+    }
 
-#main.clicktoleave:after {
-    content: "";
-    z-index: 1000;
-    background: rgba(0,0,0,.67);
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    right: 0;
-    transition: .2s;
 }
 
 

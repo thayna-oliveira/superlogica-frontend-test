@@ -111,11 +111,11 @@ body {
   top: 0;
   background: #fff;
   overflow-x: hidden;
-  transition: .5s;
   z-index: 99999;
   display: block;
   flex-wrap: wrap;
-  align-items: stretch; }
+  align-items: stretch;
+  transition: all .3s; }
   .side .nav-item {
     padding: 1rem;
     border-bottom: 1px solid #ebebeb; }
@@ -128,17 +128,17 @@ body {
     transition: .3s; }
     .side .btn-trial .nav-link {
       color: #6950d0 !important; }
-
-#main.clicktoleave:after {
-  content: "";
-  z-index: 1000;
-  background: rgba(0, 0, 0, 0.67);
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  right: 0;
-  transition: .2s; }
+  .side .exit-nav {
+    transition: all .3s;
+    padding: 0;
+    position: fixed;
+    display: flex;
+    left: 20%;
+    font-size: 40px;
+    margin-right: 50px;
+    z-index: 999;
+    color: #fff;
+    height: 100%; }
 
 .navbar {
   top: 2rem;

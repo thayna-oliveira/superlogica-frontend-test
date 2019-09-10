@@ -30,9 +30,13 @@ jQuery(document).ready(function ($) {
 
 
 $('.menu-bars').on('click touchstart', function(e){
-    console.log('oi');
     $(".navbar-collapse").addClass("side");
 });
+
+$('.exit-nav').on('click touchstart', function(e){
+    $(".navbar-collapse").removeClass("side");
+});
+
 
 $("a[href='#header']").click(function () {
     $("html, body").animate({
