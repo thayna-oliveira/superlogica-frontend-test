@@ -21,9 +21,9 @@ jQuery(document).ready(function ($) {
     ScrollReveal().reveal(".gallery #gallery", {
         origin: "bottom",
         distance: "20px",
-        duration: 800,
+        duration: 500,
         interval: 100,
-        delay: 300
+        delay: 200
     });
 
 });
