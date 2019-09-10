@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <title>Superlógica - Front-end Test</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-header" id="#header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img id="logo-superlogica" src="assets/img/brand/superlogica.svg" alt="Logo Superlogica">
+                </a>
+
+                <div class="collapse navbar-collapse">
+
+                    <ul class="navbar-nav mr-auto ml-auto menu">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Eventos</a></li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Entrar</a>
+                        </li>
+                        <li class="nav-item btn-trial">
+                            <a class="nav-link" href="">
+                                Experimente Grátis
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14">
+                                    <g fill="none" fill-rule="evenodd" transform="translate(-3 -3.912)">
+                                        <polygon points="0 0 22 0 22 22 0 22" />
+                                        <path fill="#FFF"
+                                            d="M3.66666667,11 C3.66666667,10.493739 4.07707231,10.0833333 4.58333333,10.0833333 L11,10.0833333 C11.506261,10.0833333 11.9166667,10.493739 11.9166667,11 C11.9166667,11.506261 11.506261,11.9166667 11,11.9166667 L4.58333333,11.9166667 C4.07707231,11.9166667 3.66666667,11.506261 3.66666667,11 Z"
+                                            opacity=".4" />
+                                        <path fill="#FFF"
+                                            d="M10.3518176,15.8518188 L15.2312058,10.9724306 L10.7826075,6.11941424 C10.4405145,5.74622184 10.4657255,5.16636841 10.8389179,4.82427537 C11.2121103,4.48218233 11.7919637,4.50739335 12.1340568,4.88058576 L17.1757234,10.3805858 C17.5073525,10.742363 17.4952107,11.3011505 17.14818,11.6481812 L11.64818,17.1481812 C11.2901994,17.5061618 10.7097982,17.5061618 10.3518176,17.1481812 C9.99383697,16.7902006 9.99383697,16.2097994 10.3518176,15.8518188 Z" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                  
+                <a class="navbar-toggler menu-bars" onclick="openNav()">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                        class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                        </path>
+                    </svg>
+                </a>
+
+
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row m-auto">
+                <div class="col-12 col-lg-8 col-md-12">
+                    <h1>Uma nova forma de fazer
+                        <br>
+                        negócios.
+                    </h1>
+                    <div class="col-12 col-lg-9 col-md-12 col-sm-12 p-0">
+                        <p>A Superlógica oferece um sistema completo para<br>sua empresa escalar na era digital.</p>
+                        <a class="btn btn-default" href="#">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-12 col-sm-12 form-subscribe">
+                    <form class="inner">
+                        <p>Preencha o formulário e<br>
+                            receba um kit exclusivo</p>
+                        <label id="nome">
+                            <input type="text" placeholder="Nome">
+                        </label>
+                        <label id="email">
+                            <input type="email" placeholder="E-mail">
+                        </label>
+                        <label id="telefone">
+                            <input type="text" placeholder="Telefone">
+                        </label>
+                        <button type="submit" class="btn btn-send">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--/.Header -->
+
+    <!-- Planos -->
+    <section class="planos" id="plans">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-4 card-out">
+                    <div class="card">
+                        <img src="assets/img/icons/cloud/cloud.svg">
+                        <h2>Plano A</h2>
+                        <div class="price">
+                            <span>R$</span>
+                            134
+                        </div>
+                        <div class="price-add">
+                            + Taxa de adesão
+                        </div>
+                        <hr>
+                        Lorem ipsum dolor sit amet
+                        <hr>
+                        Consectetur adipiscing elit.
+                        <hr>
+                        Maecenas varius tortor nibh
+                        <hr>
+                        <a href="#" class="btn btn-buy mr-auto ml-auto">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23">
+                                <g fill="none" fill-rule="evenodd" transform="translate(-2 -2.4)">
+                                    <polygon points="0 0 28 0 28 28 0 28" />
+                                    <path class="cart-1" fill="#006AFF"
+                                        d="M21.1687424,13.81786 L20.3550232,18.7001755 C20.354083,18.7058162 20.3531014,18.71145 20.3520785,18.7170763 C20.2368168,19.3510154 19.6294696,19.7714865 18.9955306,19.6562249 L5.73187757,17.2446516 C5.29483193,17.1651888 4.94083341,16.8444307 4.81879931,16.4173114 L2.68986827,8.9660527 C2.66008778,8.86182099 2.64497954,8.75394734 2.64497954,8.64554472 C2.64497954,8.00121251 3.167314,7.47887805 3.81164621,7.47887805 L19.8251493,7.47887805 L20.5405352,4.41293856 C20.6859067,3.78991767 21.2413405,3.34916533 21.8810967,3.34916533 L24.2900958,3.34916533 C25.0503549,3.34916533 25.6666667,3.96547712 25.6666667,4.72573624 C25.6666667,5.48599536 25.0503549,6.10230715 24.2900958,6.10230715 L22.9734444,6.10230715 L21.1687424,13.81786 Z"
+                                        opacity=".305" />
+                                    <path class="cart-2" fill="#006AFF"
+                                        d="M7.58333333,24.5 C6.61683502,24.5 5.83333333,23.7164983 5.83333333,22.75 C5.83333333,21.7835017 6.61683502,21 7.58333333,21 C8.54983165,21 9.33333333,21.7835017 9.33333333,22.75 C9.33333333,23.7164983 8.54983165,24.5 7.58333333,24.5 Z M18.0833333,24.5 C17.116835,24.5 16.3333333,23.7164983 16.3333333,22.75 C16.3333333,21.7835017 17.116835,21 18.0833333,21 C19.0498316,21 19.8333333,21.7835017 19.8333333,22.75 C19.8333333,23.7164983 19.0498316,24.5 18.0833333,24.5 Z" />
+                                </g>
+                            </svg>
+
+                            <span>Comprar</span></a>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-lg-4 card-out">
+                    <div class="card"
+                        style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                        <img src="assets/img/icons/cloud/cloud.svg">
+                        <h2>Plano B</h2>
+                        <div class="price">
+                            <span>R$</span>
+                            134
+                        </div>
+                        <div class="price-add">
+                            + Taxa de adesão
+                        </div>
+                        <hr>
+                        Lorem ipsum dolor sit amet
+                        <hr>
+                        Consectetur adipiscing elit.
+                        <hr>
+                        Maecenas varius tortor nibh
+                        <hr>
+                        <a href="#" class="btn btn-buy mr-auto ml-auto">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23">
+                                <g fill="none" fill-rule="evenodd" transform="translate(-2 -2.4)">
+                                    <polygon points="0 0 28 0 28 28 0 28" />
+                                    <path class="cart-1" fill="#006AFF"
+                                        d="M21.1687424,13.81786 L20.3550232,18.7001755 C20.354083,18.7058162 20.3531014,18.71145 20.3520785,18.7170763 C20.2368168,19.3510154 19.6294696,19.7714865 18.9955306,19.6562249 L5.73187757,17.2446516 C5.29483193,17.1651888 4.94083341,16.8444307 4.81879931,16.4173114 L2.68986827,8.9660527 C2.66008778,8.86182099 2.64497954,8.75394734 2.64497954,8.64554472 C2.64497954,8.00121251 3.167314,7.47887805 3.81164621,7.47887805 L19.8251493,7.47887805 L20.5405352,4.41293856 C20.6859067,3.78991767 21.2413405,3.34916533 21.8810967,3.34916533 L24.2900958,3.34916533 C25.0503549,3.34916533 25.6666667,3.96547712 25.6666667,4.72573624 C25.6666667,5.48599536 25.0503549,6.10230715 24.2900958,6.10230715 L22.9734444,6.10230715 L21.1687424,13.81786 Z"
+                                        opacity=".305" />
+                                    <path class="cart-2" fill="#006AFF"
+                                        d="M7.58333333,24.5 C6.61683502,24.5 5.83333333,23.7164983 5.83333333,22.75 C5.83333333,21.7835017 6.61683502,21 7.58333333,21 C8.54983165,21 9.33333333,21.7835017 9.33333333,22.75 C9.33333333,23.7164983 8.54983165,24.5 7.58333333,24.5 Z M18.0833333,24.5 C17.116835,24.5 16.3333333,23.7164983 16.3333333,22.75 C16.3333333,21.7835017 17.116835,21 18.0833333,21 C19.0498316,21 19.8333333,21.7835017 19.8333333,22.75 C19.8333333,23.7164983 19.0498316,24.5 18.0833333,24.5 Z" />
+                                </g>
+                            </svg>
+
+                            <span>Comprar</span></a>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-lg-4 card-out order-first order-md-last">
+                    <div class="card-top">MELHOR CUSTO-BENEFÍCIO</div>
+                    <div class="card best-plan">
+                        <img src="assets/img/icons/cloud/cloud-white.svg">
+                        <h2>Plano C</h2>
+                        <div class="price">
+                            <span>R$</span>
+                            134
+                        </div>
+                        <div class="price-add">
+                            + Taxa de adesão
+                        </div>
+                        <hr>
+                        Lorem ipsum dolor sit amet
+                        <hr>
+                        Consectetur adipiscing elit.
+                        <hr>
+                        Maecenas varius tortor nibh
+                        <hr>
+                        <a href="#" class="btn btn-buy mr-auto ml-auto">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23">
+                                <g fill="none" fill-rule="evenodd" transform="translate(-2 -2.4)">
+                                    <polygon points="0 0 28 0 28 28 0 28" />
+                                    <path fill="#006AFF"
+                                        d="M21.1687424,13.81786 L20.3550232,18.7001755 C20.354083,18.7058162 20.3531014,18.71145 20.3520785,18.7170763 C20.2368168,19.3510154 19.6294696,19.7714865 18.9955306,19.6562249 L5.73187757,17.2446516 C5.29483193,17.1651888 4.94083341,16.8444307 4.81879931,16.4173114 L2.68986827,8.9660527 C2.66008778,8.86182099 2.64497954,8.75394734 2.64497954,8.64554472 C2.64497954,8.00121251 3.167314,7.47887805 3.81164621,7.47887805 L19.8251493,7.47887805 L20.5405352,4.41293856 C20.6859067,3.78991767 21.2413405,3.34916533 21.8810967,3.34916533 L24.2900958,3.34916533 C25.0503549,3.34916533 25.6666667,3.96547712 25.6666667,4.72573624 C25.6666667,5.48599536 25.0503549,6.10230715 24.2900958,6.10230715 L22.9734444,6.10230715 L21.1687424,13.81786 Z"
+                                        opacity=".305" />
+                                    <path fill="#006AFF"
+                                        d="M7.58333333,24.5 C6.61683502,24.5 5.83333333,23.7164983 5.83333333,22.75 C5.83333333,21.7835017 6.61683502,21 7.58333333,21 C8.54983165,21 9.33333333,21.7835017 9.33333333,22.75 C9.33333333,23.7164983 8.54983165,24.5 7.58333333,24.5 Z M18.0833333,24.5 C17.116835,24.5 16.3333333,23.7164983 16.3333333,22.75 C16.3333333,21.7835017 17.116835,21 18.0833333,21 C19.0498316,21 19.8333333,21.7835017 19.8333333,22.75 C19.8333333,23.7164983 19.0498316,24.5 18.0833333,24.5 Z" />
+                                </g>
+                            </svg>
+
+                            <span>Comprar</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--/.Planos -->
+
+    <!-- Galeria -->
+    <section class="gallery">
+        <div class="container">
+
+            <div id="gallery" class="carousel slide carousel-fade" data-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="view">
+                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                                alt="First slide">
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Bom teste.</h3>
+                            <a class="btn btn-default" href="#header">Voltar para o topo</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(69).jpg"
+                                alt="Second slide">
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Bom teste.</h3>
+                            <a class="btn btn-default" href="#header">Voltar para o topo</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+                                alt="Third slide">
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Bom teste.</h3>
+                            <a class="btn btn-default" href="#header">Voltar para o topo</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Controls-->
+                <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
+                    <img src="assets/img/icons/navigation/arrow-left.svg">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#gallery" role="button" data-slide="next">
+                    <img src="assets/img/icons/navigation/arrow-right.svg">
+                    <span class="sr-only">Next</span>
+                </a>
+                <!--/.Controls-->
+            </div>
+
+        </div>
+    </section>
+    <!--/.Galeria -->
+
+    <!-- Rodape -->
+    <footer class="footer">
+        <span>Superlógica Front-end Test - 2019 | <a
+                href="https://github.com/thayna-oliveira">@thayna-oliveira</a></span>
+    </footer>
+    <!--/.Rodape-->
+
+
+    <a id="back_to_top" href="#" class="off">
+        <svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 64 64"
+            xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 64 64">
+            <g>
+                <path fill="#1D1D1B"
+                    d="M3.352,48.296l28.56-28.328l28.58,28.347c0.397,0.394,0.917,0.59,1.436,0.59c0.52,0,1.04-0.196,1.436-0.59   c0.793-0.787,0.793-2.062,0-2.849l-29.98-29.735c-0.2-0.2-0.494-0.375-0.757-0.475c-0.75-0.282-1.597-0.107-2.166,0.456   L0.479,45.447c-0.793,0.787-0.793,2.062,0,2.849C1.273,49.082,2.558,49.082,3.352,48.296z" />
+            </g>
+        </svg>
+    </a>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
