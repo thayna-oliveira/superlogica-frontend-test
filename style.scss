@@ -149,7 +149,8 @@ body {
         top: 0px;
         z-index: 999;
         position: fixed;
-        width: 100%;
+        width: 100%; 
+        min-width: 100%;
 
         .container {
             height: 100%;
@@ -157,6 +158,7 @@ body {
             padding: 1rem;
             box-shadow: 0 20px 20px -15px rgba(11, 12, 16, 0.2);
             width: 100%;
+            min-width: 100%;
         }
     }
 
@@ -179,23 +181,24 @@ body {
         }
     }
 
+    @media screen and (max-width: $medium) {
+        .navbar-brand { 
+            transition: .2s;
+            img {
+                width: 80%;
+            }
+        }
+    }
+
     
-
-
-    /* @media screen and (max-width: $large) {
-        background: $blue;
-        z-index: 99;
-        top: 0;
-        position: fixed;
-        width: 100%;
-    } */
+    
 
 }
 
 .menu-bars {
 
     svg {
-        width: 30px;
+        width: 20px;
     }
 
 }

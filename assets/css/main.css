@@ -91,24 +91,19 @@ body {
       top: 0px;
       z-index: 999;
       position: fixed;
-      width: 100%; }
+      width: 100%;
+      min-width: 100%; }
       .nav-fix .container {
         height: 100%;
         background: linear-gradient(315.03deg, #00B8FF 0%, #712CCB 100%);
         padding: 1rem;
         box-shadow: 0 20px 20px -15px rgba(11, 12, 16, 0.2);
-        width: 100%; } }
+        width: 100%;
+        min-width: 100%; } }
 
 .navbar {
   top: 2rem;
-  transition: all .3s;
-  /* @media screen and (max-width: $large) {
-      background: $blue;
-      z-index: 99;
-      top: 0;
-      position: fixed;
-      width: 100%;
-  } */ }
+  transition: all .3s; }
   @media screen and (max-width: 960px) {
     .navbar {
       top: 0; } }
@@ -117,9 +112,14 @@ body {
     padding-right: 1.375rem;
     padding-left: 1.375rem;
     transition: .2s; }
+  @media screen and (max-width: 720px) {
+    .navbar .navbar-brand {
+      transition: .2s; }
+      .navbar .navbar-brand img {
+        width: 80%; } }
 
 .menu-bars svg {
-  width: 30px; }
+  width: 20px; }
 
 .btn-trial {
   border: 1px solid #FFFFFF;
