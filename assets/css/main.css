@@ -109,7 +109,7 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  background: linear-gradient(315.03deg, #00B8FF 0%, #712CCB 100%);
+  background: #fff;
   overflow-x: hidden;
   transition: .5s;
   z-index: 99999;
@@ -118,7 +118,16 @@ body {
   align-items: stretch; }
   .side .nav-item {
     padding: 1rem;
-    border-bottom: 1px solid white; }
+    border-bottom: 1px solid #ebebeb; }
+    .side .nav-item .nav-link {
+      color: #5d5d5d !important; }
+  .side .btn-trial {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    transition: .3s; }
+    .side .btn-trial .nav-link {
+      color: #6950d0 !important; }
 
 #main.clicktoleave:after {
   content: "";

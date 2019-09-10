@@ -173,7 +173,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 0;
-    background: $bg-header;
+    background: #fff;
     overflow-x: hidden;
     transition: .5s;
     z-index: 99999;
@@ -183,8 +183,26 @@ body {
 
     .nav-item {
         padding: 1rem;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #ebebeb;
+
+        .nav-link {
+            color: #5d5d5d !important;;  
+        }
+
     }
+
+    .btn-trial {
+        border: 0;
+        border-radius: 0;
+        box-shadow: none; 
+        transition: .3s;
+
+        .nav-link {
+            color: #6950d0 !important;
+        }
+
+    }
+
   }
 
 #main.clicktoleave:after {
