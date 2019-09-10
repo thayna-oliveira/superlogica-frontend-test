@@ -143,6 +143,7 @@ body {
 
 .nav-fix { 
     transition: all .3s;
+    top: 0 !important;
 
     @media screen and (max-width: $medium) {
         padding: 0;
@@ -158,18 +159,58 @@ body {
             padding: 1rem;
             box-shadow: 0 20px 20px -15px rgba(11, 12, 16, 0.2);
             width: 100%;
-            min-width: 100%;
+            min-width: 100%; 
         }
     }
 
 }
+
+
+.side {
+    height: 100%;
+    right: -10%;
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background: $bg-header;
+    overflow-x: hidden;
+    transition: .5s;
+    z-index: 99999;
+    display: block;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    .nav-item {
+        padding: 1rem;
+        border-bottom: 1px solid white;
+    }
+  }
+
+#main.clicktoleave:after {
+    content: "";
+    z-index: 1000;
+    background: rgba(0,0,0,.67);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    transition: .2s;
+}
+
 
 .navbar {
     top: 2rem;
     transition: all .3s;
 
     @media screen and (max-width: $large) {
-        top: 0;
+        top: 1rem;
+
+        .container {
+            padding: 1rem;
+        }
+        
     }
 
     .navbar-nav {
@@ -189,9 +230,6 @@ body {
             }
         }
     }
-
-    
-    
 
 }
 

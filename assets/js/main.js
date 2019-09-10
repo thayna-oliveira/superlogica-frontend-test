@@ -31,7 +31,7 @@ jQuery(document).ready(function ($) {
 
 $('.menu-bars').on('click touchstart', function(e){
     console.log('oi');
-    $(".navbar-collapse").addClass("teste");
+    $(".navbar-collapse").addClass("side");
 });
 
 $("a[href='#header']").click(function () {
