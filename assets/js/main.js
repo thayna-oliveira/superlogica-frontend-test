@@ -53,8 +53,10 @@ $("#back_to_top").click(function () {
 $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
         $("#back_to_top").addClass("on");
+        $(".navbar").addClass("nav-fix");
     } else {
         $("#back_to_top").removeClass("on");
+        $(".navbar").removeClass("nav-fix");
     }
 });
 
