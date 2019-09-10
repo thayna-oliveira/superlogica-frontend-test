@@ -142,9 +142,7 @@ body {
 }
 
 .nav-fix { 
-    
-
-    
+    transition: all .3s;
 
     @media screen and (max-width: $medium) {
         padding: 0;
@@ -166,6 +164,7 @@ body {
 
 .navbar {
     top: 2rem;
+    transition: all .3s;
 
     @media screen and (max-width: $large) {
         top: 0;
