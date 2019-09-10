@@ -8,7 +8,7 @@ Projeto desenvolvido para o teste de Front-end da Superlógica.
 * Bootstrap Grid [v4.0.0](https://getbootstrap.com),
 
 ### Como rodar o projeto? ###
-* Os códigos estão hospedados no github-pages, portanto não é necessário rodar nenhuma configuração adicional ou fazer download dos arquivos. O projeto pode ser visto no [link](https://thayna-oliveira.github.io/superlogica-frontend-test/.
+* Os códigos estão hospedados no github-pages, portanto não é necessário rodar nenhuma configuração adicional ou fazer download dos arquivos. O projeto pode ser visto no [link](https://thayna-oliveira.github.io/superlogica-frontend-test/).
 
 ### Quais arquivos preciso olhar? ###
 * O arquivo [index.html](https://github.com/thayna-oliveira/superlogica-frontend-test/blob/master/index.html) contém toda a marcação HTML da página.
