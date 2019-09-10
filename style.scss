@@ -18,7 +18,7 @@ body {
 .container {
 
     @media screen and (min-width: $large) {
-        max-width: 1400px;
+        max-width: 1200px;
     }
 
 }
@@ -97,19 +97,19 @@ body {
 
         #telefone {
             &:before {
-                background: url("../img/icons/clothes/phone.svg") center / contain no-repeat;
+                background: url("../img/icons/phone.svg") center / contain no-repeat;
             }
         }
 
         #email {
             &:before {
-                background: url("../img/icons/clothes/letter-black.svg") center / contain no-repeat;
+                background: url("../img/icons/letter-black.svg") center / contain no-repeat;
             }
         }
 
         #nome {
             &:before {
-                background: url("../img/icons/clothes/user.svg") center / contain no-repeat;
+                background: url("../img/icons/smile.svg") center / contain no-repeat;
             }
         }
 
@@ -223,7 +223,7 @@ body {
 
 
 .card-out {
-    padding: 0 3.5rem 0;
+    padding: 0 3rem 0;
 
     @media screen and (max-width: $large) {
         padding: 0 2rem 0;
