@@ -30,6 +30,9 @@ jQuery(document).ready(function ($) {
 
 
 $('.menu-bars').on('click touchstart', function(e){
+
+    e.preventdefault();
+    
     $(".navbar-collapse").addClass("side");
     $('#main').addClass('lock-scroll');
     $('body').addClass('lock-scroll');
