@@ -128,17 +128,28 @@ body {
     transition: .3s; }
     .side .btn-trial .nav-link {
       color: #6950d0 !important; }
-  .side .exit-nav {
-    transition: all .3s;
-    padding: 0;
+
+.exit-nav {
+  display: none;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.67);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  transition: all .2s; }
+  .exit-nav span {
+    height: 100%;
+    width: 10%;
     position: fixed;
-    display: flex;
-    left: 20%;
+    padding-left: 2rem;
     font-size: 40px;
-    margin-right: 50px;
-    z-index: 999;
     color: #fff;
-    height: 100%; }
+    padding-top: 1rem; }
+
+.show {
+  display: block; }
 
 .navbar {
   top: 2rem;
