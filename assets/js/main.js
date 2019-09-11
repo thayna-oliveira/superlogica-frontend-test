@@ -40,6 +40,8 @@ $('.menu-bars').on('click', function(e){
 });
 
 $('.exit-nav').on('click', function(e){
+    e.preventDefault();
+
     $(".navbar-collapse").removeClass("side"); 
     $(".exit-nav").removeClass("show");
     $('#main').removeClass('lock-scroll');
