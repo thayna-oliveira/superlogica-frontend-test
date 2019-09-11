@@ -36,7 +36,7 @@ $('.menu-bars').on('click touchstart', function(e){
 });
 
 $('.exit-nav').on('click touchstart', function(e){
-    $(".navbar-collapse").removeClass("side");
+    $(".navbar-collapse").removeClass("side"); 
     $(".exit-nav").removeClass("show");
     $('body').removeClass('lock-scroll');
 });

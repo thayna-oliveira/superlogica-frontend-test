@@ -142,7 +142,7 @@ body {
 }
 
 .nav-fix { 
-    transition: all .3s;
+    transition: all .2s;
     top: 0 !important;
 
     @media screen and (max-width: $medium) {
@@ -178,8 +178,8 @@ body {
     z-index: 99999;
     display: block;
     flex-wrap: wrap;
-    align-items: stretch;
-    transition: all .3s;
+    align-items: stretch;  
+    transition: all 0.9s ease-out 0s;
 
     .nav-item {
         padding: 1rem;
@@ -220,7 +220,7 @@ body {
     height: 100%;
     top: 0;
     right: 0;
-    transition: all .2s;
+    transition: all 0.9s ease-out 0s;
 
     span { 
         height: 100%;
