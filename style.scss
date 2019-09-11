@@ -477,6 +477,10 @@ body {
             fill: #fff;
         }
     }
+
+    @media screen and (max-width: $medium) {
+        display: none;
+    }
 }
 
 .off {

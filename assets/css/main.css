@@ -313,6 +313,9 @@ body {
     width: 100%; }
     #back_to_top svg path {
       fill: #fff; }
+  @media screen and (max-width: 720px) {
+    #back_to_top {
+      display: none; } }
 
 .off {
   opacity: 0;
