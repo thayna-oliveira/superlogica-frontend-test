@@ -457,6 +457,11 @@ body {
     a {
         color: #fff;
     }
+    
+    @media screen and (max-width: $large) {
+        padding: 2rem;
+        font-size: .85rem;
+    }
 
 }
 
