@@ -306,14 +306,15 @@ body {
   z-index: 99;
   border: none;
   outline: none;
-  background: #006AFF;
+  background: #1a4278;
   padding: 15px;
-  width: 52px;
-  height: 52px;
-  border-radius: 52px;
+  width: 60px;
+  height: 60px;
+  border-radius: 59px;
   -webkit-transition: all .2s ease 0s;
   -moz-transition: all .2s ease 0s;
-  -o-transition: all .2s ease 0s; }
+  -o-transition: all .2s ease 0s;
+  box-shadow: 0 20px 20px -15px rgba(11, 12, 16, 0.2); }
   #back_to_top svg {
     height: 22px;
     width: 100%; }
