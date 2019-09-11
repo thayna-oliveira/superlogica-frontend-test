@@ -32,12 +32,14 @@ jQuery(document).ready(function ($) {
 $('.menu-bars').on('click touchstart', function(e){
     $(".navbar-collapse").addClass("side");
     $(".exit-nav").addClass("show");
+    $('body').addClass('lock-scroll');
 });
 
 $('.exit-nav').on('click touchstart', function(e){
     $(".navbar-collapse").removeClass("side");
     $(".exit-nav").removeClass("show");
 });
+
 
 
 $("a[href='#header']").click(function () {

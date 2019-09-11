@@ -151,6 +151,9 @@ body {
 .show {
   display: block; }
 
+.lock-scroll {
+  overflow: hidden; }
+
 .navbar {
   top: 2rem;
   transition: all .3s; }
