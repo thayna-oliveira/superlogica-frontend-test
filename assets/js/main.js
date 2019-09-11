@@ -31,6 +31,7 @@ jQuery(document).ready(function ($) {
 
 $('.menu-bars').on('click touchstart', function(e){
     $(".navbar-collapse").addClass("side");
+    $('#main').addClass('lock-scroll');
     $('body').addClass('lock-scroll');
     $(".exit-nav").addClass("show");
     
@@ -39,10 +40,9 @@ $('.menu-bars').on('click touchstart', function(e){
 $('.exit-nav').on('click touchstart', function(e){
     $(".navbar-collapse").removeClass("side"); 
     $(".exit-nav").removeClass("show");
+    $('#main').removeClass('lock-scroll');
     $('body').removeClass('lock-scroll');
 });
-
-
 
 $("a[href='#header']").click(function () {
     $("html, body").animate({
