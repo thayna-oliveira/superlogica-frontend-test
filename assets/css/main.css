@@ -128,6 +128,8 @@ body {
     transition: .3s; }
     .side .btn-trial .nav-link {
       color: #6950d0 !important; }
+    .side .btn-trial svg path {
+      fill: #6950d0; }
 
 .exit-nav {
   display: none;
