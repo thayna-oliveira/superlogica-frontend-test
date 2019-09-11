@@ -294,6 +294,10 @@ body {
   color: #fff; }
   .footer a {
     color: #fff; }
+  @media screen and (max-width: 960px) {
+    .footer {
+      padding: 2rem;
+      font-size: .85rem; } }
 
 #back_to_top {
   position: fixed;
@@ -315,9 +319,6 @@ body {
     width: 100%; }
     #back_to_top svg path {
       fill: #fff; }
-  @media screen and (max-width: 720px) {
-    #back_to_top {
-      display: none; } }
 
 .off {
   opacity: 0;
