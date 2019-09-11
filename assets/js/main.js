@@ -26,52 +26,50 @@ jQuery(document).ready(function ($) {
         delay: 100
     });
 
-    $('.menu-bars').on('click', function(e){
-
-        e.preventDefault();
-    
-        $(".navbar-collapse").addClass("side");
-        $('#main').addClass('lock-scroll');
-        $('body').addClass('lock-scroll');
-        $(".exit-nav").addClass("show");
-        
-    });
-    
-    $('.exit-nav').on('click', function(e){
-        $(".navbar-collapse").removeClass("side"); 
-        $(".exit-nav").removeClass("show");
-        $('#main').removeClass('lock-scroll');
-        $('body').removeClass('lock-scroll');
-    });
-    
-    $("a[href='#header']").click(function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, "slow");
-        return false;
-    });
-    
-    
-    $("#back_to_top").click(function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, "slow");
-        return false;
-    });
-    
-    
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $("#back_to_top").addClass("on");
-            $(".navbar").addClass("nav-fix");
-        } else {
-            $("#back_to_top").removeClass("on");
-            $(".navbar").removeClass("nav-fix");
-        }
-    });
-    
-
 });
 
+$('.menu-bars').on('click', function(e){
+
+    e.preventDefault();
+
+    $(".navbar-collapse").addClass("side");
+    $('#main').addClass('lock-scroll');
+    $('body').addClass('lock-scroll');
+    $(".exit-nav").addClass("show");
+    
+});
+
+$('.exit-nav').on('click', function(e){
+    $(".navbar-collapse").removeClass("side"); 
+    $(".exit-nav").removeClass("show");
+    $('#main').removeClass('lock-scroll');
+    $('body').removeClass('lock-scroll');
+});
+
+$("a[href='#header']").click(function () {
+    $("html, body").animate({
+        scrollTop: 0
+    }, "slow");
+    return false;
+});
+
+
+$("#back_to_top").click(function () {
+    $("html, body").animate({
+        scrollTop: 0
+    }, "slow");
+    return false;
+});
+
+
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+        $("#back_to_top").addClass("on");
+        $(".navbar").addClass("nav-fix");
+    } else {
+        $("#back_to_top").removeClass("on");
+        $(".navbar").removeClass("nav-fix");
+    }
+});
 
 
