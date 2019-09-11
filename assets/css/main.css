@@ -316,7 +316,7 @@ body {
   -o-transition: all .2s ease 0s;
   box-shadow: 0 20px 20px -15px rgba(11, 12, 16, 0.2); }
   #back_to_top svg {
-    height: 22px;
+    height: 30px;
     width: 100%; }
     #back_to_top svg path {
       fill: #fff; }
