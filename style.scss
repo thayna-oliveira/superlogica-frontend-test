@@ -308,9 +308,9 @@ body {
     background-color: $blue;
     color: #fff;
     transition: color .15s ease-in-out,
-        background-color .25s ease-in-out,
-        border-color .15s ease-in-out,
-        box-shadow .25s ease-in-out;
+    background-color .25s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .25s ease-in-out;
 
     .cart-1 {
         fill: #fff;
@@ -485,9 +485,6 @@ body {
         }
     }
 
-    @media screen and (max-width: $medium) {
-        display: none;
-    }
 }
 
 .off {
